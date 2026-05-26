@@ -1,0 +1,13 @@
+# Read the input string
+s = input()
+
+# Create an empty string for the result
+result = ""
+
+# Keep only letters, digits, and spaces
+for ch in s:
+	if ch.isalnum() or ch == " ":
+		result += ch
+
+# Print the cleaned string
+print(result)
